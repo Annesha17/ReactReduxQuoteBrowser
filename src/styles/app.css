@@ -1,0 +1,14 @@
+.header {
+  background-color: #26A69A;
+  color: #fff;
+  opacity: 0.8;
+  text-align: center;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  line-height: 100px; }
+
+.brand {
+  font-size: 36px;
+  vertical-align: middle; }
