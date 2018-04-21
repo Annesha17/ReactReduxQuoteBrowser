@@ -7,8 +7,41 @@
   left: 0;
   height: 100px;
   width: 100%;
-  line-height: 100px; }
+  line-height: 100px;
+  position: fixed;
+  z-index: 1000; }
 
 .brand {
   font-size: 36px;
   vertical-align: middle; }
+
+.menu {
+  margin-top: 100px;
+  text-align: center; }
+
+.menu ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.menu ul > li {
+  display: inline-block;
+  width: 100px; }
+
+.menu ul > li > a {
+  display: block;
+  color: #26A69A;
+  text-align: center;
+  padding: 12px 40px;
+  text-decoration: none; }
+
+.menu ul > li > a:hover {
+  font-weight: bolder; }
+
+.menu .selected {
+  color: #FF6766;
+  font-weight: bolder;
+  border-bottom: 2px solid #FF6766;
+  text-decoration: none; }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import {Header}  from './components/header/Header';
+import {AppRouter}  from './components/routers/AppRouter';
+
+
 import logo from './logo.svg';
 //import './App.css';
 
@@ -7,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="AppNew">
-       <Header/>
+       <AppRouter/>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
