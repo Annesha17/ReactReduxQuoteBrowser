@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {AppRouter}  from './components/routers/AppRouter';
+import {createAppStore} from './components/state/store/appStore';
 //import {fetchQuoteOfTheDay} from './components/services/QuoteService';
 
 

@@ -1,8 +1,8 @@
-import {fetchQuoteOfTheDay} from '../actions/QuoteOfTheDayAction';
+import {fetchQuoteOfTheDay} from '../actions/QuoteOfTheDayActions';
 
 //import action constants
 import  {FETCH_QUOTE_OF_THE_DAY_PENDING,FETCH_QUOTE_OF_THE_DAY_FULFILLED,FETCH_QUOTE_OF_THE_DAY_REJECTED}
- from '../actions/QuoteOfTheDayAction';
+ from '../actions/QuoteOfTheDayActions';
 
 //initialise state
 const initialState={
